@@ -1,8 +1,7 @@
-FROM node:14-apline
-WORKDIR /opt/app
+FROM node:14-alpine
+WORKDIR /top-api
 ADD package.json package.json
 RUN yarn install
 ADD . .
 RUN yarn build
-RUN yarn install --production
 CMD ["node", "./dist/main.js"]

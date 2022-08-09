@@ -1,5 +1,5 @@
 version: '4.10.1'
-services:
+service:
  mongo: 
   image: mongo
   container_name: mongo
@@ -10,5 +10,5 @@ services:
   ports: 
    - 27017:27017
   volumes:
-   - ./mongo-data:/data/db
+   - ./.env:/top-api/.env
   command: --wiredTigerCacheSizeGB 1.5  
