@@ -1,5 +1,5 @@
 version: '4.10.1'
-service:
+services:
  top-api: 
   image: top-api:latest
   container_name: top-api

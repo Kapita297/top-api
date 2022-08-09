@@ -1,5 +1,5 @@
 version: '4.10.1'
-service:
+services:
  mongo: 
   image: mongo
   container_name: mongo
