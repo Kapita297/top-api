@@ -8,4 +8,3 @@ service:
    - 3000:3000
   volumes:
    - ./mongo-data:/data/db
-  command: --wiredTigerCacheSizeGB 1.5  
