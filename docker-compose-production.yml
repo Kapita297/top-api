@@ -1,7 +1,7 @@
 version: '4.10.1'
 services:
  top-api: 
-  image: docker.pkg.github.com/Kapita297/top-api/top-api:latest
+  image: ghcr.io/Kapita297/top-api/top-api:latest
   container_name: top-api
   restart: always
   ports: 
